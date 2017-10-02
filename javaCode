@@ -1,0 +1,23 @@
+public class Switch {
+	public static void main(String[] args) {
+		
+    System.out.println("A bad guy wants to blow up the neighbourhood, you decide what happens next: B, W or F! (i recommend F) ");
+    
+    
+		char dynamiteFuse = 'F';
+      
+      switch(dynamiteFuse) {
+    
+    case 'B' : System.out.println("The bomb blows up the neighbourhood");
+        break;
+      
+      case 'W': System.out.println("Bad guy forgot to check the weather, starts to rain and the fuse gets wet");
+        break;
+        
+        case 'F': System.out.println("Cat steals the bomb, gets snapped up by a pelikan who flies it over trump tower and donald drumpf ends up dead(No NSA i dont have any plans of killing trump, stop looking at my internet history...Gees, get a life)");
+        break;
+        
+		}
+
+	}
+}
